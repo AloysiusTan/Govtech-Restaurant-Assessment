@@ -69,7 +69,9 @@ To design and deploy this solution using cloud services, the following architect
 ## 3. Architecture Diagram
 
 Below is a diagram describing the infrastructure components and how they interact:
-+----------------------------+ +---------------------+ +-----------------------------------+ | Amazon S3 | --> | AWS Lambda | --> | Amazon S3 | | (Raw Data Storage) | | (Data Processing) | | (Processed Data Storage - CSV) | +----------------------------+ +---------------------+ +-----------------------------------+
+
+<insert image>
+    
 ### Explanation:
 - **Amazon S3 (Raw Data Storage)**: Stores the raw data files such as `restaurant_data.json` and `country_codes.xlsx`.
 - **AWS Lambda (Data Processing)**: Handles the processing of the raw data to extract relevant events, filter by date, and generate a CSV file.
