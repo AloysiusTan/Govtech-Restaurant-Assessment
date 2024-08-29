@@ -70,7 +70,8 @@ To design and deploy this solution using cloud services, the following architect
 
 Below is a diagram describing the infrastructure components and how they interact:
 
-<insert image>
+![GovTech DE Restaurant ](https://github.com/user-attachments/assets/f1166da3-e4fa-49af-b175-32be0527cdf4)
+
     
 ### Explanation:
 - **Amazon S3 (Raw Data Storage)**: Stores the raw data files such as `restaurant_data.json` and `country_codes.xlsx`.
